@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Pattaya', sans-serif;
+    background-image: url(./img/muchos\ numeros.jpg);
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.contenedor_calculadora {
+    width: 40rem;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #093d4e;
+    border-radius: 20%;
+    border: solid .3rem #229a60;
+}
+
+.contenedor_calculadora table {
+    margin: 0 auto;
+}
+
+.contenedor_calculadora table tr td button {
+    width: 7rem;
+    height: 7rem;
+    font-size: 4rem;
+    border-radius: 50%;
+    color: #093d4e;
+}
+
+.contenedor_calculadora table tr td button:hover {
+    border: #229a60 solid .3rem;
+    color: #229a60;
+}
+
+#pantalla {
+    display: block;
+    width: 100%;
+    height: 90px;
+    text-align: right;
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, 74);
+    margin-bottom: 2rem;
+    border: .1rem solid #229a60;
+    color: #fff;
+    line-height: 9rem;
+    border-radius: 5%;
+}
