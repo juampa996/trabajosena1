@@ -1,2 +1,2 @@
 # trabajosena1
-trabajo sena
+trabajo senas
